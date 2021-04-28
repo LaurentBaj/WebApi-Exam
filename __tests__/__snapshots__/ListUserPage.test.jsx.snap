@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`user list page show user on dom 1`] = `"<div><h5></h5><li>User 1: Laurent Bajrami</li><p></p></div>"`;

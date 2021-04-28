@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app can navigate to admin login page 1`] = `"<div id=\\"container\\"><header><a class=\\"link\\" href=\\"/profile\\">Profile</a><a class=\\"link\\" href=\\"/login\\">Admin</a><a class=\\"link\\" href=\\"/\\">Front Page</a><a class=\\"link\\" href=\\"/member\\">Login</a></header><main><div id=\\"btnLogin\\"><h2>Login as admin</h2><label>Google</label><button>Login</button></div></main></div>"`;
+
+exports[`app can navigate to member page 1`] = `"<div id=\\"container\\"><header><a class=\\"link\\" href=\\"/profile\\">Profile</a><a class=\\"link\\" href=\\"/login\\">Admin</a><a class=\\"link\\" href=\\"/\\">Front Page</a><a class=\\"link\\" href=\\"/member\\">Login</a></header><main><form><h1>Login as user</h1><div><label>Surname: <input type=\\"text\\" value=\\"\\"></label></div><div><label>Password: <input type=\\"password\\" value=\\"\\"></label></div><button>Submit</button></form></main></div>"`;
+
+exports[`app can navigate to profile page 1`] = `"<div id=\\"container\\"><header><a class=\\"link\\" href=\\"/profile\\">Profile</a><a class=\\"link\\" href=\\"/login\\">Admin</a><a class=\\"link\\" href=\\"/\\">Front Page</a><a class=\\"link\\" href=\\"/member\\">Login</a></header><main><div><pre>You are not logget in. Go to profile page to use Google Login</pre><a href=\\"/login\\"><button>Google Login</button></a></div></main></div>"`;
+
+exports[`app can show home page 1`] = `"<div id=\\"container\\"><header><a class=\\"link\\" href=\\"/profile\\">Profile</a><a class=\\"link\\" href=\\"/login\\">Admin</a><a class=\\"link\\" href=\\"/\\">Front Page</a><a class=\\"link\\" href=\\"/member\\">Login</a></header><main><h1>CoronaBook</h1><div>Loading ...</div></main></div>"`;
